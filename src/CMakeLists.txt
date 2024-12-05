@@ -10,4 +10,4 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 add_executable(LTEOverIP main.cpp core.cpp)
 
 # Link Qt libraries
-target_link_libraries(LTEOverIP Qt5::Widgets)
+target_link_libraries(LTEOverIP Qt5::Widgets pthread)

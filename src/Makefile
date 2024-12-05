@@ -123,6 +123,46 @@ LTEOverIP/fast:
 	$(MAKE) -f CMakeFiles/LTEOverIP.dir/build.make CMakeFiles/LTEOverIP.dir/build
 .PHONY : LTEOverIP/fast
 
+#=============================================================================
+# Target rules for targets named LTEOverIP_autogen
+
+# Build rule for target.
+LTEOverIP_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LTEOverIP_autogen
+.PHONY : LTEOverIP_autogen
+
+# fast build rule for target.
+LTEOverIP_autogen/fast:
+	$(MAKE) -f CMakeFiles/LTEOverIP_autogen.dir/build.make CMakeFiles/LTEOverIP_autogen.dir/build
+.PHONY : LTEOverIP_autogen/fast
+
+LTEOverIP_autogen/mocs_compilation.o: LTEOverIP_autogen/mocs_compilation.cpp.o
+
+.PHONY : LTEOverIP_autogen/mocs_compilation.o
+
+# target to build an object file
+LTEOverIP_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/LTEOverIP.dir/build.make CMakeFiles/LTEOverIP.dir/LTEOverIP_autogen/mocs_compilation.cpp.o
+.PHONY : LTEOverIP_autogen/mocs_compilation.cpp.o
+
+LTEOverIP_autogen/mocs_compilation.i: LTEOverIP_autogen/mocs_compilation.cpp.i
+
+.PHONY : LTEOverIP_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+LTEOverIP_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/LTEOverIP.dir/build.make CMakeFiles/LTEOverIP.dir/LTEOverIP_autogen/mocs_compilation.cpp.i
+.PHONY : LTEOverIP_autogen/mocs_compilation.cpp.i
+
+LTEOverIP_autogen/mocs_compilation.s: LTEOverIP_autogen/mocs_compilation.cpp.s
+
+.PHONY : LTEOverIP_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+LTEOverIP_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/LTEOverIP.dir/build.make CMakeFiles/LTEOverIP.dir/LTEOverIP_autogen/mocs_compilation.cpp.s
+.PHONY : LTEOverIP_autogen/mocs_compilation.cpp.s
+
 core.o: core.cpp.o
 
 .PHONY : core.o
@@ -186,6 +226,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LTEOverIP"
+	@echo "... LTEOverIP_autogen"
+	@echo "... LTEOverIP_autogen/mocs_compilation.o"
+	@echo "... LTEOverIP_autogen/mocs_compilation.i"
+	@echo "... LTEOverIP_autogen/mocs_compilation.s"
 	@echo "... core.o"
 	@echo "... core.i"
 	@echo "... core.s"

@@ -1210,6 +1210,8 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
+/workspaces/SLTEOI/src/LTEOverIP_autogen/mocs_compilation.cpp
+
 /workspaces/SLTEOI/src/core.h
 string
 -
@@ -1233,4 +1235,12 @@ QString
 -
 core.h
 /workspaces/SLTEOI/src/core.h
+main.moc
+/workspaces/SLTEOI/src/main.moc
+
+LTEOverIP_autogen/include/main.moc
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
 

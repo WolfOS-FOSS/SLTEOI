@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LTEOverIP_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/LTEOverIP_autogen.dir/ParseCache.txt"
+  "LTEOverIP_autogen"
+  "CMakeFiles/LTEOverIP.dir/LTEOverIP_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/LTEOverIP.dir/core.cpp.o"
   "CMakeFiles/LTEOverIP.dir/main.cpp.o"
   "LTEOverIP"

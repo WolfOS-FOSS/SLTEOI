@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/workspaces/SLTEOI/src/LTEOverIP_autogen/mocs_compilation.cpp" "/workspaces/SLTEOI/src/CMakeFiles/LTEOverIP.dir/LTEOverIP_autogen/mocs_compilation.cpp.o"
   "/workspaces/SLTEOI/src/core.cpp" "/workspaces/SLTEOI/src/CMakeFiles/LTEOverIP.dir/core.cpp.o"
   "/workspaces/SLTEOI/src/main.cpp" "/workspaces/SLTEOI/src/CMakeFiles/LTEOverIP.dir/main.cpp.o"
   )
@@ -19,6 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "LTEOverIP_autogen/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"

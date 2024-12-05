@@ -1210,16 +1210,6 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
-/workspaces/SLTEOI/src/core.cpp
-core.h
-/workspaces/SLTEOI/src/core.h
-iostream
--
-chrono
--
-sstream
--
-
 /workspaces/SLTEOI/src/core.h
 string
 -

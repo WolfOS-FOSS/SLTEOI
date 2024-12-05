@@ -16,7 +16,7 @@ private:
 public:
     LTEApp(QWidget *parent = nullptr) : QWidget(parent) {
         QVBoxLayout *layout = new QVBoxLayout(this);
-
+        Q_OBJECT
         QPushButton *startButton = new QPushButton("Start LTE Core", this);
         QPushButton *stopButton = new QPushButton("Stop LTE Core", this);
         statusLabel = new QLabel("Core Status: Stopped", this);
